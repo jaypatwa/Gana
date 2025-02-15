@@ -1,0 +1,7 @@
+<resources>
+    <color name="primary">#1DB954</color> <!-- Spotify Green Shade -->
+    <color name="background">#121212</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="buttonColor">#1ED760</color>
+    <color name="editTextBackground">#222222</color>
+</resources>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- App Logo -->
+
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gana_logo"
+        android:contentDescription="App Logo"
+        android:layout_centerInParent="true"/>
+
+
+
+    <!-- Login Form -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/editTextBackground"
+        android:hint="Enter Email"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/editTextBackground"
+        android:hint="Enter Password"
+        android:textColor="@color/textColor"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="@color/textColor"
+        android:backgroundTint="@color/buttonColor"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Sign Up Option -->
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to Gana? Sign Up"
+        android:textColor="@color/primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:clickable="true"/>
+</LinearLayout>
